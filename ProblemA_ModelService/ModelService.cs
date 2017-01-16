@@ -16,7 +16,7 @@ namespace ProblemA_ModelService
         {
             if (Object1 == null) throw new ArgumentException("Object1 parameter cannot be null.");  
             HashGenerator hashGenerator = new HashGenerator();                             
-            return hashGenerator.getHash(Object1,hashType);
+            return hashGenerator.GetHash(Object1,hashType);
         }
 
         /// <summary>

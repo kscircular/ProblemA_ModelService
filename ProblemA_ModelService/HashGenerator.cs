@@ -7,7 +7,7 @@ namespace ProblemA_ModelService
 {
     public class HashGenerator
     {
-        public string getHash(object Object, HashHelper.HashType HashType) 
+        public string GetHash(object Object, HashHelper.HashType HashType) 
         {
             //Convert object to a byte array using the binary formatter and memory stream
             var stream = new MemoryStream();
