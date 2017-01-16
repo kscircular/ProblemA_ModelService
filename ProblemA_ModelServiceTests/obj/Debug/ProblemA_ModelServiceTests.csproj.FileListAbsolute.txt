@@ -1,0 +1,9 @@
+D:\ProblemA_ModelService\ProblemA_ModelServiceTests\obj\Debug\ProblemA_ModelServiceTests.csprojResolveAssemblyReference.cache
+D:\ProblemA_ModelService\ProblemA_ModelServiceTests\bin\Debug\ProblemA_ModelServiceTests.dll
+D:\ProblemA_ModelService\ProblemA_ModelServiceTests\bin\Debug\ProblemA_ModelServiceTests.pdb
+D:\ProblemA_ModelService\ProblemA_ModelServiceTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\ProblemA_ModelService\ProblemA_ModelServiceTests\bin\Debug\ProblemA_ModelService.exe
+D:\ProblemA_ModelService\ProblemA_ModelServiceTests\bin\Debug\ProblemA_ModelService.pdb
+D:\ProblemA_ModelService\ProblemA_ModelServiceTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\ProblemA_ModelService\ProblemA_ModelServiceTests\obj\Debug\ProblemA_ModelServiceTests.dll
+D:\ProblemA_ModelService\ProblemA_ModelServiceTests\obj\Debug\ProblemA_ModelServiceTests.pdb
