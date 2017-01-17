@@ -1,9 +1,10 @@
 ﻿using System;
 namespace ProblemA_ModelService
 {
+    [Serializable]
     public class Address
     {
-       public Address()
+        public Address()
         {
             HouseNumber = "";
             StreetName = "";

@@ -10,14 +10,8 @@ namespace ProblemA_ModelService
         {
             ModelService modelService = new ModelService();
 
-            //Return a list of properties that have different values between the two objects
-            var differences = modelService.GetObjectDifferences(new List<String>(), new StringBuilder());
-
-            //Return a list of identical properties names in each of the two objects
-            var identicalProperties = modelService.GetIdenticalProperties(new List<String>(), new StringBuilder());
-
-            //Get the Cryptographic hash for an object
-            var cryptoHash = modelService.GetCryptographicHash(new List<String>(),HashHelper.HashType.SHA1Managed);
+            //Requirement does not call for a console application.
+            //Please run the unit tests to test for proper functionality.
 
         }
     }

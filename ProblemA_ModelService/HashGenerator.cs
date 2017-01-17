@@ -9,6 +9,8 @@ namespace ProblemA_ModelService
     {
         public string GetHash(object Object, HashHelper.HashType HashType) 
         {
+            if (Object == null) throw new ArgumentException("Object parameter cannot be null.");
+
             //Convert object to a byte array using the binary formatter and memory stream
             var stream = new MemoryStream();
 

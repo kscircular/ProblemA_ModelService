@@ -43,7 +43,7 @@ namespace ProblemA_ModelService
             }
             catch (Exception ex)
             {
-                throw new Exception("Unexpected exception encountered",ex);
+                throw new ApplicationException("Unexpected exception encountered",ex);
             }
             return result;
         }
@@ -64,7 +64,8 @@ namespace ProblemA_ModelService
             try
             {
                 var queryResult = from p1 in Object1.GetType().GetProperties().AsEnumerable()
-                                  join p2 in Object2.GetType().GetProperties().AsEnumerable() on p1.Name equals p2.Name
+                                  join p2 in Object2.GetType().GetProperties().AsEnumerable() 
+                                  on p1.Name equals p2.Name
                                   where p1.GetValue(Object1, null) != p2.GetValue(Object2, null)
                                   select new Difference() { Name = p1.Name, Value1 = p1.GetValue(Object1, null).ToString(), Value2 = p2.GetValue(Object2, null).ToString() };
 
@@ -72,7 +73,7 @@ namespace ProblemA_ModelService
             }
             catch (Exception ex)
             {
-                throw new Exception("Unexpected exception encountered", ex);
+                throw new ApplicationException("Unexpected exception encountered", ex);
             }
 
             return result;

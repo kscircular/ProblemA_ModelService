@@ -3,4 +3,3 @@ D:\ProblemA_ModelService\ProblemA_ModelService\bin\Debug\ProblemA_ModelService.e
 D:\ProblemA_ModelService\ProblemA_ModelService\bin\Debug\ProblemA_ModelService.pdb
 D:\ProblemA_ModelService\ProblemA_ModelService\obj\Debug\ProblemA_ModelService.exe
 D:\ProblemA_ModelService\ProblemA_ModelService\obj\Debug\ProblemA_ModelService.pdb
-D:\ProblemA_ModelService\ProblemA_ModelService\obj\Debug\ProblemA_ModelService.csprojResolveAssemblyReference.cache
